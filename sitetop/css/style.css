@@ -1,0 +1,127 @@
+/* ２個目の画面 */
+
+body {
+    font-family: "M PLUS 1p";
+    /* background-color: #eee; */
+    color: #555;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.pc_header {
+    /* padding-top: 80px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    height: 120px;
+    border: #555 7px solid;
+    border-radius: 10px;
+}
+
+.pc_header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+.pc_header ul li {
+    list-style: none;
+}
+.pc_header ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+}
+
+.div_frame_group {
+    border-radius: 15px;
+}
+
+.div_operation {
+    /* position: relative;
+    width: 100%; */
+    /* max-width: 300px; */
+    padding-top: 30px;
+    /* margin-top: 30px; */
+    /* padding-right: 50%; */
+    display: flex;
+    justify-content: space-between;
+}
+.div_operation:before {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) translateX(0);
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+}
+.div_operation select {
+    /* width: 100%; */
+    /* outline: none; */
+    /* appearance: none; */
+    /* -webkit-appearance: none; */
+    -moz-appearance: none;
+    /* height: 40px; */
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.div_operation select::-ms-expand {
+    display: none;
+}
+
+#div_operation_sub{
+    margin-left: 30px;
+}
+
+/* #tta_opinion {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) translateX(0);
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+} */
+
+
+#btn_operation_sub {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    background-color: #FCDA33;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #C29226;
+}
+
+#btn-_operation_sub:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+#slt_theme{
+    margin: 0px 30px;
+}
+
+#spn_theme{
+    font-size: 30px;
+    color: #C29226;
+    font-weight: bold;
+}
